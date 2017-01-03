@@ -6,7 +6,7 @@ require 'net/smtp'
 urls_found =[]
 urls_ignored = []
 
-file = File.open("/Users/scottbradshaw/code/urls.txt", "r")
+file = File.open("/Users/scottbradshaw/code/404_URL_Checker", "r")
 file.each do |line|
   next if line.strip! == ""
   line.insert(0, "http://") unless(line.match(/^http\:\/\//) || line.match(/^#/))

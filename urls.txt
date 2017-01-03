@@ -1,0 +1,15 @@
+h.com.com
+http:www
+example.com
+# example below is invalid url
+www.one exampl.com
+# example below handles empty line
+
+www.google.com
+http://google.com/test
+http://www.yahoo.com
+http://profootballtalk.com
+http://profootballtalk.com/test
+nfl.com/test
+http://www.thisisnotavalidsite.com
+http://partners.disney.com/testing
